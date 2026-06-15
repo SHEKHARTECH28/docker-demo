@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
 ENV JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
 ENV PATH=$JAVA_HOME/bin:$PATH
 
-# Spark Version
+# Spark Version2
 ENV SPARK_VERSION=3.5.6
 
 # Download Spark
